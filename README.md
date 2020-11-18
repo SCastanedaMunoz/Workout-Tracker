@@ -1,57 +1,73 @@
-# Workout Tracker
+![License: ISC](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+# **Note Taker**
 
-## User Story
+## **Description**
+***Workout Tracker*** is a **Node**, **Express**, **Mongoose**, **MongoDB**, and **Heroku**, application intented for users that want to keep track of their workout routine, as well as getting a detail visual breakdown of their routines, duration and repetitiveness. It is easy to forget or be unable to recall the type of workouts and routines being followed during a week of exercise, ***Workout Tracker*** allows users to analyze and properly visualize this information as they continue with their schedule. Being able to take persistent notes of Burgers to devour allows users to have this written information available when needed.
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## **Table of Contents**
+* [Description](##Description)
+* [Installation](##Installation)
+* [Usage](##Usage)
+* [License](##License)
+* [Contributing](##Contributing)
+* [Questions](##Questions)
 
-## Business Context
+## **Installation**
+There is no installation process for ***Workout Tracker***, the app can be found on it's deployed Website at [Workout Tracker.](scastanedam-workout-tracker.herokuapp.com). However, all the app code is available in the [Git Hub Repository](https://github.com/SCastanedaMunoz/Workout-Tracker). If you decide to clone the Repository, you will have to open the project on your terminal and run the npm i or npm install process. This will fetch and install any required npm packages in order to run the application. ***Workout Tracker*** was built using Node 12.8.2 and npm 6.14.5. 
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+## **Usage**
+As mentioned before, The main purpose of this application is for users to keep track of their workout routine, as well as getting a detail visual breakdown of their routines, duration and repetitiveness. Here are some screenshots of the different areas of the app and how they can be used:
 
-## Acceptance Criteria
+### **Home Page**
+First thing user's see when they open the app. Information about the last workout is displayed.
+![Home Page](./docs/main.png)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+### **Exercise Records**
+Users can use this form to add additional exercises to a workout.
+![Main Page](./docs/exercise.png)
 
-The user should be able to:
+### **Visualization**
+Users can utilize the dashboard to visualize their workout routines across the week.
+![User Input](./docs/visualization.png)
 
-  * Add exercises to a previous workout plan.
+## **License**
 
-  * Add new exercises to a new workout plan.
+This project is under the MIT License:
 
-  * View the combined weight of multiple exercises on the `stats` page.
+    Copyright (c) 2020 Santiago Castaneda Munoz
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-## Commit Early and Often
+## **Contributing**
+If you wish to contribute to the project, make sure to read the following guidelines:
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+* Any found bugs should be reported to the repository Issues Tab.
+* If you wish your changes to be merged into the app, make sure to create well written, documented and testable code. ***Include Unit Tests***
+* If you wish to add a new feature, make sure to include *user stories* as how your feature will help the app. 
+* Create a pull request, after proper review it will be merged into the Git Repository
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+## **Questions**
+If you have any questions regarding this app, feel free to contact me through my email, or the [Git Hub Repository](https://github.com/SCastanedaMunoz/Workout-Tracker). All questions will be answered in a reasonable amount of time.
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+### ***GitHub Profile***
+https://github.com/SCastanedaMunoz
 
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+### ***Email Contact***
+[santiagocm98@hotmail.com](mailto:santiagocm98@hotmail.com)
